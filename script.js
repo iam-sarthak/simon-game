@@ -89,19 +89,19 @@ function pressAnnimation(pKeyid) {
 function pressSound(pKeyid) {
   switch (pKeyid) {
     case "green":
-      var sound = new Audio("sounds/green.mp3");
+      var sound = new Audio("green.mp3");
       sound.play();
       break;
     case "blue":
-      var sound = new Audio("sounds/blue.mp3");
+      var sound = new Audio("blue.mp3");
       sound.play();
       break;
     case "red":
-      var sound = new Audio("sounds/red.mp3");
+      var sound = new Audio("red.mp3");
       sound.play();
       break;
     case "yellow":
-      var sound = new Audio("sounds/yellow.mp3");
+      var sound = new Audio("yellow.mp3");
       sound.play();
       break;
     default:
